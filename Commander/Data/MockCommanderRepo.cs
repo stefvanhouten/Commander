@@ -8,7 +8,7 @@ namespace Commander.Data
 {
     public class MockCommanderRepo : ICommanderRepo //Implement, not inherit! This is because the MockCommanderRepo is an interface
     {
-        public IEnumerable<Command> GetAppCommands()
+        public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>
             {
