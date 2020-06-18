@@ -1,8 +1,6 @@
 ﻿using Commander.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Commander.Data
 {
@@ -33,5 +31,9 @@ namespace Commander.Data
             throw new NotImplementedException();
         }
 
+        public void UpdateCommand(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

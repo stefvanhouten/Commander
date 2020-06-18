@@ -15,6 +15,7 @@ namespace Commander.Profiles
             //Source -> Target. So incoming type is Command, outgoing type is CommandReadDto
             CreateMap<Command, CommandReadDto>();
             CreateMap<CommandCreateDto, Command>();
+            CreateMap<CommandUpdateDto, Command>();
         }
     }
 }
